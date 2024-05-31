@@ -18,7 +18,7 @@ public class User {
 
     @Override
     public String toString() {
-        return "\n User: " + this.username + "\n Full Name: " + this.firstname + " " + this.lastname + "\n DOB: " + this.dob + "\n";
+        return "\n User: " + this.username + "\n Full Name: " + this.getName() + "\n DOB: " + this.dob + "\n";
     }
 
     /* getters */
